@@ -9,6 +9,7 @@ namespace RubiconeX_Server.DataAccess.Core.Interfaces.Context
     public interface IRubicContext : IDisposable, IAsyncDisposable
     {
         DbSet<UserRto> Users { get; set; }
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+        DbSet<UserRoleRto> UserRoles { get; set; }
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default); 
     }
 }

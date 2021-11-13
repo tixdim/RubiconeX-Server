@@ -7,7 +7,7 @@
     <ProjectGuid>{15A01251-B4A6-4549-A5CC-BB018752EC1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>RubconeX_Server.Core</RootNamespace>
-    <AssemblyName>RubconeX_Server.Core</AssemblyName>
+    <AssemblyName>RubconeX-Server.Core</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
